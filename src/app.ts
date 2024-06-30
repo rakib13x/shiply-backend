@@ -9,7 +9,6 @@ import notFound from './app/middlewares/notFound';
 
 const app: Application = express();
 
-//parsers
 app.use(express.json());
 app.use(cookieParser());
 
